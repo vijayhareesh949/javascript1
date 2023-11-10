@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javaScript</title>
+    <style>
+body{
+background-color: antiquewhite;
+
+
+}
+        summary{
+color: black;
+font-size: 20px;
+
+        }
+    </style>
+</head>
+<body>
+
+    <details>
+      <summary> variables in javascript </summary>
+    <pre>
+ Variables are "containers" for storing information.
+ JavaScript variables are used to hold values or expressions.
+ A variable can have a short name, like x, or a more descriptive name, like carname. <br>
+       
+ Rules for JavaScript variable names:
+ Variable names are case sensitive (y and Y are two different variables) 
+ Variable names must begin with a letter or the underscore character 
+ Note: Because JavaScript is case-sensitive, variable names are case-sensitive.
+
+ <b>The variables declared using the var keyword are hoisted at the top and are initialized before the execution of code with a default value of undefined. 
+ The variables declared in the global scope that is outside any function cannot be deleted </b>
+</pre>
+<img src="./code.png" alt="" width="500px" height="250px">
+
+<p>
+    In JavaScript, users can declare a variable using 3 keywords that are  <b>var, let, and const</b>. 
+</p>
+   <h3>Let key word</h3>
+<p>javaScript let is a keyword used to declare variables in JavaScript that are block scoped.  <br> <br>
+
+    The variables which are declared inside the { } block are known as block-scoped variables. variables declared by the var keyword cannot be block-scoped.
+</p>
+<img src="./variable let.png" alt="" width="500px" height="250px">
+
+<p>
+<h3>const keyword</h3>
+The difference in const variable declaration to others is that it cannot be re-assigned.
+<h3>properties in const key word.</h3>
+<ol>
+ <li>Cannot be reassigned.</li>
+ <li>Its Block Scope</li>
+ <li>It can be assigned to the variable on the declaration line.</li>
+ <li>Its a Primitive value.</li>
+ <li>The property of a const object can be changed but it cannot be changed to a reference to the new object</li>
+ <li>The values inside the const array can be changed, it can add new items to const arrays but it cannot reference a new array.</li>
+ <li>Re-declaring of a const variable inside different block scopes is allowed.</li>
+ <li>Cannot be Hoisted</li>
+ <li>Creates only read-only references to value.</li>
+</ol>
+<img src="./variable const.png" alt="" width="500px" height="300px">
+</p>
+</details>
+
+
+
+<details>
+    
+   <summary>Data types</summary> 
+
+    Datatypes are basically types of data that can be used and manipulated in a program. <br>
+
+    there are two data types <br>
+ <div class="pt">    1.Primitive data type.(we can also called as immutable)</div>
+     <div>The predefined data types provided by JavaScript language are known as primitive data type.</div>
+       <div> <b>1.number</b>( Number data type in javascript can be used to hold decimal values as well as values without decimals.)</div>
+
+      <div><b>2.string</b>(The string data type in javascript represents a sequence of characters that are surrounded by single or double quotes.)</div>
+     <div><b>3.boolean</b>(The boolean data type can accept only two values i.e. true and false.)</div>
+     <div><b>4.undefined</b>(The meaning of undefined is ‘value is not assigned’.)</div>
+     <div><b>5.null</b>(This data type can hold only one possible value that is null.)</div>
+
+     <img src="https://tarunreddybabi.github.io/Variables/Image/Primitive%20data%20types.png" alt="" width="200px">
+     </div>
+    
+    <br>
+
+<div class="np">
+    2.non-primitive data types.(we can als called as mutable) 
+<div>They are two types of non non-primitive data types.</div>
+<div><b>1.array</b>( A special type of object used for storing an ordered list of values. Elements in an array can be of any data type.)</div>
+<div><b>2.object</b>(Represents complex data structures and is used for collections of data, functions, or methods. Objects are key-value pairs, where the keys are strings (or Symbols) and the values can be any data type.)</div>
+<div><b>3.functions</b>(Functions are objects, and they can be assigned to variables, passed as arguments, and returned from other functions. Functions are used to perform specific tasks or calculations.)</div>
+
+<img src="./non primitive datatypes.png" alt="" width="200px" height="300">
+
+
+</div>
+    
+
+
+</details>
+
+
+
+</body>
+</html>
